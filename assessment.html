@@ -91,5 +91,29 @@
         </li>
       </ul>
     <h1>Form</h1>
+    <form action="assessment.html">
+      <label for="firstname">First: </label><input type="text" id="firstname" name="fname">
+      <label for="lastname">Last: </label><input type="text" id="lastname" name="lname"><br>
+      <label for="sport">Favorite Sport:</label><br>
+      <select name="sports" id="sport">
+        <option value="Baseball">Baseball</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Football">Football</option>
+        <option value="Hockey">Hockey</option>
+        <option value="Soccer">Soccer</option>
+        <option value="Tennis">Tennis</option>
+      </select><br>
+      <label for="relationToSport">I have: </label>
+      <input type="checkbox" name="relationToSport" value="0">Attended
+      <input type="checkbox" name="relationToSport" value="1">Played
+      <input type="checkbox" name="relationToSport" value="2">Coached
+      <input type="checkbox" name="relationToSport" value="3">Bet On<br>
+      <label for="relationToSport">this sport.</label><br>
+      <label for="sportLevel">For this sport I prefer: </label>
+      <input type="radio" name="sportLevel" value="0">Amateur
+      <input type="radio" name="sportLevel" value="1">College
+      <input type="radio" name="sportLevel" value="2">Professional<br>
+      <input type="submit" name="submitQuery" value="Submit Query">
+    </form>
   </body>
 </html>
